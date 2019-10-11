@@ -11,21 +11,21 @@ Miscellaneous command line scripts and utilities
 
 * [github_repos.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/github_repos.sh):
 Check number of github repositories and update beeminder if increased
- * Requires [bmndr](https://github.com/lydgate/bmndr)
+  * Requires [bmndr](https://github.com/lydgate/bmndr)
 
 * [so_rep.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/so_rep.sh):
 Check stackoverflow reputation and update beeminder if increased
- * Requires [bmndr](https://github.com/lydgate/bmndr)
+  * Requires [bmndr](https://github.com/lydgate/bmndr)
 
 * [goodReads.py](https://raw.githubusercontent.com/makeyourownmaker/misc/master/goodReads.py):
 Lookup book details including rating statistics using ISBN and calculate further statistics
- * Requires [goodreads python module](https://github.com/sefakilic/goodreads)
- * Requires [goodreads API key and API secret](https://www.goodreads.com/api)
+  * Requires [goodreads python module](https://github.com/sefakilic/goodreads)
+  * Requires [goodreads API key and API secret](https://www.goodreads.com/api)
 
 * [omdb](https://raw.githubusercontent.com/makeyourownmaker/misc/master/omdb):
 Lookup IMDB, rotten tomatoes ratings, runtime etc
- * Requires [jq](https://stedolan.github.io/jq/)
- * Broken - requires [free API key](http://www.omdbapi.com/apikey.aspx) now
+  * Requires [jq](https://stedolan.github.io/jq/)
+  * Broken - requires [free API key](http://www.omdbapi.com/apikey.aspx) now
 
 
 ## Warning
