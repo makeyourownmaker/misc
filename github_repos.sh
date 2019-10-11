@@ -6,9 +6,9 @@ set -euo pipefail
 
 PATH=/usr/local/bin:/usr/bin:/bin:~/bin
 
-GOAL='repos'
+GOAL=<beeminder goal>
 
-github_repos=`curl -s https://api.github.com/users/makeyourownmaker/repos | jq '.[] | {name: .name}' | grep -c name`
+github_repos=`curl -s https://api.github.com/users/<username>/repos | jq '.[] | {name: .name}' | grep -c name`
 #echo $github_repos # DEBUG
 #exit
 
