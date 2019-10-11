@@ -1,0 +1,14 @@
+#!/bin/sh
+
+old="$IFS"
+IFS='+'
+title="'$*'"
+echo "$str"
+IFS=$old
+
+curl -s "http://www.omdbapi.com/?t=$title=&plot=short&r=json&tomatoes=true" | 
+  jq '{imdb: .imdbRating | tonumber, 
+       toms: {Ratings: .Ratings } | .Ratings | .[] | select(.Source=="Rotten Tomatoes") | .Value | rtrimstr("%") | tonumber, 
+       mins: .Runtime | split(" min")[] | tonumber } | 
+       .imdb*.toms/.mins'
+
