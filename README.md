@@ -10,11 +10,11 @@ Miscellaneous command line scripts and utilities
 ## Script summary
 
 * [github_repos.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/github_repos.sh):
-Check number of github repositories and update beeminder if increased
+Check number of github repositories and update [beeminder](https://www.beeminder.com/home) if increased
   * Requires [bmndr](https://github.com/lydgate/bmndr)
 
 * [so_rep.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/so_rep.sh):
-Check stackoverflow reputation and update beeminder if increased
+Check stackoverflow reputation and update [beeminder](https://www.beeminder.com/home) if increased
   * Requires [bmndr](https://github.com/lydgate/bmndr)
 
 * [goodReads.py](https://raw.githubusercontent.com/makeyourownmaker/misc/master/goodReads.py):
