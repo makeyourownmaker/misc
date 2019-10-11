@@ -9,19 +9,22 @@ Miscellaneous command line scripts and utilities
 
 ## Summary
 
-[github_repos.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/github_repos.sh):
+* [github_repos.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/github_repos.sh):
 Check number of github repositories and update beeminder if increased
 Requires [bmndr](https://github.com/lydgate/bmndr)
-[so_rep.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/so_rep.sh):
+
+* [so_rep.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/so_rep.sh):
 Check stackoverflow reputation and update beeminder if increased
 Requires [bmndr](https://github.com/lydgate/bmndr)
-[goodReads.py](https://raw.githubusercontent.com/makeyourownmaker/misc/master/goodReads.py):
+
+* [goodReads.py](https://raw.githubusercontent.com/makeyourownmaker/misc/master/goodReads.py):
 Lookup book details including rating statistics using ISBN and calculate further statistics
 Requires [goodreads python module plus API key and API secret](https://github.com/sefakilic/goodreads)
-[omdb](https://raw.githubusercontent.com/makeyourownmaker/misc/master/omdb):
+
+* [omdb](https://raw.githubusercontent.com/makeyourownmaker/misc/master/omdb):
 Lookup IMDB, rotten tomatoes ratings, runtime etc
 Requires [jq](https://stedolan.github.io/jq/)
-Broken - requires free API key
+Broken - requires free API key now
 
 
 ## Warning
