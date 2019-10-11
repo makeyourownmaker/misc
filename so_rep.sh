@@ -7,8 +7,8 @@ set -euo pipefail
 
 PATH=/usr/local/bin:/usr/bin:/bin:~/bin
 
-SOID=100129
-GOAL='sopoints'
+SOID=<stackoverflow ID>
+GOAL=<beeminder goal>
 
 # WARNING: Got to be careful with SO rep
 #          Downvoting costs rep points
