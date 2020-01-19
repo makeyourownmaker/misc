@@ -16,6 +16,8 @@ Check number of github repositories and update [beeminder](https://www.beeminder
 * [so_rep.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/so_rep.sh):
 Check stackoverflow reputation and update [beeminder](https://www.beeminder.com/home) if increased
   * Requires [bmndr](https://github.com/lydgate/bmndr)
+  * **Note** downvoting is not supported
+    * beeminder and stackoverflow can go out of sync when you downvote on stackoverflow
 
 * [goodReads.py](https://raw.githubusercontent.com/makeyourownmaker/misc/master/goodReads.py):
 Lookup book details including rating statistics using ISBN and calculate further statistics
@@ -25,7 +27,7 @@ Lookup book details including rating statistics using ISBN and calculate further
 * [omdb](https://raw.githubusercontent.com/makeyourownmaker/misc/master/omdb):
 Lookup IMDB, rotten tomatoes ratings, runtime etc
   * Requires [jq](https://stedolan.github.io/jq/)
-  * Broken - requires [free API key](http://www.omdbapi.com/apikey.aspx) now
+  * **Broken** - requires [free API key](http://www.omdbapi.com/apikey.aspx) now
 
 
 ## Warning
