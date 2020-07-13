@@ -19,6 +19,10 @@ Check stackoverflow reputation and update [beeminder](https://www.beeminder.com/
   * **Note** downvoting is not supported
     * beeminder and stackoverflow can go out of sync when you downvote on stackoverflow
 
+* [so_edits.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/so_edits.sh):
+Check stackoverflow edits required for 'Strunk & White' badge and update [beeminder](https://www.beeminder.com/home) if increased
+  * Requires [bmndr](https://github.com/lydgate/bmndr)
+
 * [goodReads.py](https://raw.githubusercontent.com/makeyourownmaker/misc/master/goodReads.py):
 Lookup book details including rating statistics using ISBN and calculate further statistics
   * Requires [goodreads python module](https://github.com/sefakilic/goodreads)
