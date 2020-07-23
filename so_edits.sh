@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # Get stackoverflow 'Strunk & White' edits and possibly update beeminder goal
+# NOTE: The stackexchange data is updated early every Sunday morning around 3:00 UTC
+# See here for original stackexchange query:
+# https://data.stackexchange.com/stackoverflow/revision/1262589/28666/how-many-edits-have-i-made-and-how-much-more-until-i-earn-the-badges
 
 set -euo pipefail
 
