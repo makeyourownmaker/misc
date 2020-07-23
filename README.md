@@ -22,6 +22,7 @@ Check stackoverflow reputation and update [beeminder](https://www.beeminder.com/
 * [so_edits.sh](https://raw.githubusercontent.com/makeyourownmaker/misc/master/so_edits.sh):
 Check stackoverflow edits required for 'Strunk & White' badge and update [beeminder](https://www.beeminder.com/home) if increased
   * Requires [bmndr](https://github.com/lydgate/bmndr)
+  * [StachExchnage](https://data.stackexchange.com/) is updated weekly (early on Sunday morning)
 
 * [goodReads.py](https://raw.githubusercontent.com/makeyourownmaker/misc/master/goodReads.py):
 Lookup book details including rating statistics using ISBN and calculate further statistics
