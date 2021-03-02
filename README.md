@@ -28,6 +28,7 @@ Check stackoverflow edits required for 'Strunk & White' badge and update [beemin
 Lookup book details including rating statistics using ISBN and calculate further statistics
   * Requires [goodreads python module](https://github.com/sefakilic/goodreads)
   * Requires [goodreads API key and API secret](https://www.goodreads.com/api)
+  * **Broken** - no more API keys and service retiring in 2021 See [here](https://help.goodreads.com/s/article/Does-Goodreads-support-the-use-of-APIs) and [here](https://www.goodreads.com/api)
 
 * [omdb](https://raw.githubusercontent.com/makeyourownmaker/misc/master/omdb):
 Lookup IMDB, rotten tomatoes ratings, runtime etc
