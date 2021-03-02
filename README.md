@@ -36,6 +36,12 @@ Lookup IMDB, rotten tomatoes ratings, runtime etc
   * **Broken** - requires [free API key](http://www.omdbapi.com/apikey.aspx) now
 
 
+## Templates
+
+* [README.md](https://raw.githubusercontent.com/makeyourownmaker/misc/master/templates/README.md):
+Git repository README.md template
+
+
 ## Warning
 
 Some of these tools contain obvious problems and should be considered as
