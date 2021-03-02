@@ -4,7 +4,7 @@
 ![Lifecycle
 ](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=flat)
 
-Miscellaneous command line scripts and utilities
+Miscellaneous command line scripts, utilities and templates
 
 
 ## Script summary
