@@ -41,6 +41,9 @@ Lookup IMDB, rotten tomatoes ratings, runtime etc
 * [README.md](https://raw.githubusercontent.com/makeyourownmaker/misc/master/templates/README.md):
 Git repository README.md template
 
+* [notebook.ipynb](https://raw.githubusercontent.com/makeyourownmaker/misc/templates/notebook.ipynb):
+Jupyter notebook template
+
 
 ## Warning
 
