@@ -11,6 +11,19 @@ from scipy.stats import gaussian_kde
 from statsmodels.nonparametric.bandwidths import bw_silverman, bw_scott
 
 
+# A population of U surgeons receive N notifications at specific times during the day.
+# You are given a CSV containing a list of pairs (surgeon, notification_time) to show
+# who receives a notification and when. The similarity between surgeons is defined as
+# "how close in time they tend to receive notifications".
+# As an example, if surgeon A and surgeon B both receive lots of notifications around
+# 12:00 and not much during the rest of the day, they have a high mutual similarity.
+# If surgeon C receives most notifications spread over the evening and not much around
+# 12:00 she has low similarity to both surgeon A and B.
+# Please explain how you could quantify similarity(surgeon1, surgeon2) mathematically
+# and implement a program that, given the attached CSV, will find the two most similar
+# users.
+
+
 pp = pprint.PrettyPrinter(depth=4)
 
 # Reduces variance in results but won't eliminate it :-(
